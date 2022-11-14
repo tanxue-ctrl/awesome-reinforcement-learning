@@ -1,5 +1,4 @@
 # awesome-reinforcement-learning-in-Intelligent-Transportation-System
-awesome rl
 Hi, guys！
 Welcome to my hub.
 there is an awesome and simple tutorial, which carefully walks you through how to apply basic or advanced RL algorithms to transportation.
