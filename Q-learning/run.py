@@ -3,13 +3,13 @@ from rl import QLearningTable
 
 
 def update():
-    for episode in range(100):
+    for episode in range(30):
         # initial observation
         observation = env.reset()
 
         while True:
             # fresh env
-            env.render()
+            # env.render()
 
             # RL choose action based on observation
             action = RL.choose_action(str(observation))
@@ -30,7 +30,6 @@ def update():
 
     # end of game
     print('game over')
-    env.destroy()
 
 if __name__ == "__main__":
     env = Maze()

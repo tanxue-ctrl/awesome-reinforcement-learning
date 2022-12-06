@@ -51,11 +51,15 @@ class Maze():
             done = False
         return s_, reward, done
 
+
+
     def render(self):
         time.sleep(0.1)
 
         # self.maze[s[0]][s[1]] = "$"
         # print(maze)
+
+
 
 if __name__ == '__main__':
     env = Maze()
