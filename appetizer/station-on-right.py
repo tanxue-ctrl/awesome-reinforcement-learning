@@ -4,9 +4,8 @@ import time
 
 np.random.seed(2)  # reproducible
 
-
 N_STATES = 6   # the length of the 1 dimensional world
-ACTIONS = ['left', 'right']     # available actions
+ACTIONS = ['down', 'right']     # available actions
 EPSILON = 0.9    # greedy police
 ALPHA = 0.1      # learning rate
 GAMMA = 0.9      # discount factor
@@ -79,7 +78,6 @@ def rl():
             counter += 1
 
     return q_table
-
 
 if __name__ == "__main__":
     q_table = rl()
