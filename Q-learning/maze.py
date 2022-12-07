@@ -53,7 +53,7 @@ class Maze():
 
 
 
-    def render(self):
+    def render(self,s):
         time.sleep(0.1)
 
         # self.maze[s[0]][s[1]] = "$"
