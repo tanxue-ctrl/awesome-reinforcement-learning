@@ -18,7 +18,7 @@ def update():
             print("step_obs",observation_)
 
             # RL choose action based on step_obs
-            action_ = RL.choose_action(observation_)
+            action_ = RL.choose_action(str(observation_))
             # RL learn from this transition
             RL.learn(str(observation), action, reward, str(observation_),action_)
 

@@ -35,6 +35,7 @@ class SarsaTable:
 
     def check_state_exist(self, state):
         if state not in self.q_table.index:
+            print("this state ",state)
             # append new state to q table
             self.q_table = self.q_table.append(
                 pd.Series(

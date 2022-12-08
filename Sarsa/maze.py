@@ -14,7 +14,7 @@ class Maze():
         self.w = len(self.maze[0])
 
     def reset(self):
-        ini_state = (0,0)
+        ini_state = [0,0]
         return ini_state
 
     def step(self,s,a):
@@ -49,6 +49,7 @@ class Maze():
         else:
             reward = 0
             done = False
+
         return s_, reward, done
 
 
